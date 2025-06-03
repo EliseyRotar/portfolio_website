@@ -36,7 +36,7 @@ Questo è il mio portfolio personale creato con HTML, CSS e Bootstrap. Mostra le
 
 ## Come Contattarmi
 Puoi usare il form di contatto integrato nel portfolio oppure:
-- Email: [nutellelik@gmail.com]
+- Email: nutellelik@gmail.com
 - GitHub: [EliseyRotar](https://github.com/EliseyRotar)
 
 ## Licenza
