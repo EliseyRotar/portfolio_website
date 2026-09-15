@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio personale di Rotar Elisey — studente appassionato di programmazione, Python, web development, Arduino e gestione server.">
+    <meta name="author" content="Rotar Elisey">
+    <meta name="theme-color" content="#0a0c0f">
+
+    <meta property="og:title" content="Rotar Elisey — Portfolio">
+    <meta property="og:description" content="Studente della 3BI, appassionato di programmazione, Python, web e server.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://i.postimg.cc/qRTK5x8h/6e584c18-195a-475b-bf25-57e6848e903d.png">
+
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/qRTK5x8h/6e584c18-195a-475b-bf25-57e6848e903d.png">
+
+    <title>Rotar Elisey — Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#chi-sono">Chi Sono</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#competenze">Competenze</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#progetti">Progetti</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contatti">Contattami</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="min-vh-100 d-flex align-items-center">
+        <video autoplay muted loop playsinline preload="metadata">
+            <source src="https://cdn.pixabay.com/video/2021/08/06/84086-584871133_large.mp4" type="video/mp4">
+        </video>
+        <div class="container text-center" data-aos="fade-up">
+            <h1 class="display-1">Rotar Elisey</h1>
+            <p class="lead">Studente della 3BI · Sviluppatore · Appassionato di tecnologia</p>
+            <a href="#progetti" class="btn btn-outline-info btn-lg mt-3">Vedi i miei progetti</a>
+        </div>
+    </section>
+
+    <section id="chi-sono" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Chi Sono</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center" data-aos="fade-right">
+                    <img src="https://i.postimg.cc/qRTK5x8h/6e584c18-195a-475b-bf25-57e6848e903d.png"
+                        alt="Foto profilo di Rotar Elisey" class="img-fluid rounded-circle profile-img" loading="lazy">
+                </div>
+                <div class="col-md-8" data-aos="fade-left">
+                    <p class="lead">
+                        Mi chiamo <strong>Rotar Elisey</strong>, ho 16 anni e sono un appassionato di programmazione e informatica.
+                        Fin da bambino ho iniziato a creare siti web utilizzando HTML e CSS,
+                        e da allora ho continuato a coltivare questa passione, ampliando costantemente le mie competenze.
+                        Attualmente utilizzo <strong>Arch Linux</strong> come sistema operativo principale e sto approfondendo il linguaggio <strong>Python</strong>.
+                        In parallelo, mi sto avvicinando anche a <strong>JavaScript</strong> e <strong>PHP</strong>, con l'obiettivo di migliorare nello sviluppo web.
+                        Inoltre, ho configurato un home server personale dove gestisco vari servizi, tra cui un NAS per Ecolens.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="competenze" class="py-5 bg-body-tertiary">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Competenze</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-filetype-py display-4"></i>
+                            <h5 class="card-title mt-3">Python</h5>
+                            <p class="card-text">Sviluppo di script e automazioni in Python.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-file-earmark-code-fill display-4"></i>
+                            <h5 class="card-title mt-3">HTML &amp; CSS</h5>
+                            <p class="card-text">Sviluppo web front-end (vedi Ecolens).</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-file-binary display-4"></i>
+                            <h5 class="card-title mt-3">C++</h5>
+                            <p class="card-text">Programmazione di sketch per Arduino.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-cpu display-4"></i>
+                            <h5 class="card-title mt-3">Arduino Hardware</h5>
+                            <p class="card-text">Sviluppo di progetti elettronici e prototipi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-hdd-rack display-4"></i>
+                            <h5 class="card-title mt-3">Server</h5>
+                            <p class="card-text">Gestione e configurazione home server (proxmox.ecolens.me).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="progetti" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Progetti</h2>
+            <div class="row g-4">
+                <div class="col-md-6" data-aos="fade-up">
+                    <div class="card h-100">
+                        <img src="https://i.postimg.cc/tCVLjGYK/ECOLENS.png" class="card-img-top" alt="Logo Ecolens" loading="lazy">
+                        <div class="card-body">
+                            <h5 class="card-title">Ecolens Website</h5>
+                            <p class="card-text">Sito per il mio futuro business dedicato a Ecolens Keeper.</p>
+                            <a href="https://ecolens.me" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                                Scopri di più <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100">
+                        <img src="https://raw.githubusercontent.com/EliseyRotar/music_sync/refs/heads/main/logo_256x256.png"
+                            class="card-img-top" alt="Logo Music Sync" loading="lazy">
+                        <div class="card-body">
+                            <h5 class="card-title">Music Sync App</h5>
+                            <p class="card-text">Applicazione Python per sincronizzare canzoni tra PC e Android tramite ADB.</p>
+                            <a href="https://github.com/EliseyRotar/music_sync/tree/main" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-primary">
+                                Scopri di più <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contatti" class="py-5 bg-body-tertiary">
+        <div class="container">
+            <h2 class="text-center mb-3" data-aos="fade-up">Contattami</h2>
+            <p class="text-center mb-5" data-aos="fade-up" data-aos-delay="100">
+                Scrivimi e ti risponderò il prima possibile.
+            </p>
+            <div class="row justify-content-center">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <form action="https://formspree.io/f/mdkzoglz" method="POST" class="card p-4">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Il tuo nome:</label>
+                            <input type="text" name="name" id="name" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">La tua email:</label>
+                            <input type="email" name="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Il tuo messaggio:</label>
+                            <textarea name="message" id="message" class="form-control" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Invia <i class="bi bi-send"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4">
+        <div class="container text-center">
+            <div class="social-links mb-3">
+                <a href="https://github.com/EliseyRotar" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="mailto:nutellelik@gmail.com" aria-label="Email">
+                    <i class="bi bi-envelope-fill"></i>
+                </a>
+                <a href="https://ecolens.me" target="_blank" rel="noopener noreferrer" aria-label="Ecolens">
+                    <i class="bi bi-globe"></i>
+                </a>
+            </div>
+            <p class="mb-0">&copy; 2025 Rotar Elisey. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 800, once: true, offset: 80 });
+    </script>
+</body>
+
+</html>

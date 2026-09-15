@@ -3,29 +3,42 @@
 ![Screenshot del Portfolio](https://i.postimg.cc/qRTK5x8h/6e584c18-195a-475b-bf25-57e6848e903d.png)
 
 ## Descrizione
-Questo è il mio portfolio personale creato con HTML, CSS e Bootstrap. Mostra le mie competenze, progetti e informazioni su di me.
+Portfolio personale creato con HTML, CSS, Bootstrap 5 e AOS (animate on scroll).
+Mostra le mie competenze, progetti e informazioni su di me.
+
+## Live
+Dopo l'attivazione di GitHub Pages: **https://eliseyrotar.github.io/portfolio_website/**
 
 ## Caratteristiche
 - Design responsive con Bootstrap 5
-- Sezioni organizzate:
-  - Home con video background
-  - Chi Sono con foto e descrizione
-  - Competenze con icone
-  - Progetti con card
-  - Form di contatto funzionante
-- Navbar fixed-top
-- Stile personalizzato con CSS
+- Tema dark personalizzato
+- Animazioni on-scroll (AOS)
+- Sezioni: Home, Chi Sono, Competenze, Progetti, Contatti
+- Video background nella hero
+- Navbar fixed-top con scroll smooth
+- Form di contatto funzionante via Formspree
+- Link social nel footer (GitHub, Email, Ecolens)
+- SEO base (meta description, Open Graph)
+- Pagina 404 personalizzata
+- `loading="lazy"` sulle immagini
 
 ## Tecnologie utilizzate
 - HTML5
 - CSS3
-- Bootstrap 5
+- Bootstrap 5.3
 - Bootstrap Icons
+- AOS (Animate On Scroll)
 - Formspree per il form di contatto
 
+## Pubblicazione su GitHub Pages
+1. Vai su **Settings → Pages** del repository
+2. **Source**: *Deploy from a branch*
+3. **Branch**: `main` · cartella `/ (root)`
+4. Salva. Dopo ~1 minuto il sito sarà online.
+
 ## Progetti Presentati
-1. **[Ecolens Website](https://ecolens.me)** - Sito per il mio futuro business
-2. **[Music Sync App](https://github.com/EliseyRotar/music_sync/tree/main)** - Applicazione Python per sincronizzare musica tra PC e Android
+1. **[Ecolens Website](https://ecolens.me)** — Sito per il mio futuro business
+2. **[Music Sync App](https://github.com/EliseyRotar/music_sync/tree/main)** — App Python per sincronizzare musica tra PC e Android
 
 ## Competenze
 - Python
@@ -34,8 +47,7 @@ Questo è il mio portfolio personale creato con HTML, CSS e Bootstrap. Mostra le
 - Hardware Arduino
 - Gestione Server
 
-## Come Contattarmi
-Puoi usare il form di contatto integrato nel portfolio oppure:
+## Contatti
 - Email: nutellelik@gmail.com
 - GitHub: [EliseyRotar](https://github.com/EliseyRotar)
 
